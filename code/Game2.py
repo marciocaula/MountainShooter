@@ -1,11 +1,13 @@
 import pygame
 
+from code.Const2 import WIN_WIDTH, WIN_HEIGHT
 from code.Menu2 import Menu
 
 class Game:
     def __init__(self):
         pygame.init()
-        self.window = pygame.display.set_mode(size=(640, 480))
+        # self.window = pygame.display.set_mode(size=(640, 480))
+        self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
     def run(self,):
         while True:
