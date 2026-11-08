@@ -13,9 +13,7 @@
 #             pygame.quit() # Close Window
 #             quit() #end pygame
 
-
-
-from code.Game import Game
+from code.Game2 import Game
 
 game = Game()
 game.run()
